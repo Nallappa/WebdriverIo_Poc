@@ -1,0 +1,52 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "This is the first feature",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "c929ba02452885d9",
+      "parentUid" : "6c54eaa418242ee3b77578265f01cc08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236509773,
+        "stop" : 1628236519238,
+        "duration" : 9465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "6c54eaa418242ee3b77578265f01cc08"
+  }, {
+    "name" : "addLabel",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "c929ba02452885d9",
+      "parentUid" : "c856c5c24d631c0e256932bca7057a75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236509773,
+        "stop" : 1628236519238,
+        "duration" : 9465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "c856c5c24d631c0e256932bca7057a75"
+  }, {
+    "name" : "Fail the test",
+    "uid" : "2e1820b2113340f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1628236519239,
+      "stop" : 1628236519350,
+      "duration" : 111
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.131" ]
+  } ]
+}

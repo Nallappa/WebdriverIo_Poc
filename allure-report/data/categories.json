@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "expect(received).toBeFalsy()\n                \n                Received: true",
+      "children" : [ {
+        "name" : "Fail the test",
+        "uid" : "2e1820b2113340f",
+        "parentUid" : "f1416c5cb8e152c12fbe8cd1f28068e1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628236519239,
+          "stop" : 1628236519350,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-92.0.4515.131" ]
+      } ],
+      "uid" : "f1416c5cb8e152c12fbe8cd1f28068e1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

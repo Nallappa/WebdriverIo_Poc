@@ -1,0 +1,102 @@
+{
+  "uid" : "9d899a081640ab89",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "d171879f4c0fcaf6cd9b68e2af2baf50",
+  "time" : {
+    "start" : 1628233021871,
+    "stop" : 1628233029767,
+    "duration" : 7896
+  },
+  "description" : "Description",
+  "descriptionHtml" : "<p>Description</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Step status must be passed or failed or broken or canceled or skipped. You tried to set \"EndStep title\"",
+  "statusTrace" : "Error: Step status must be passed or failed or broken or canceled or skipped. You tried to set \"EndStep title\"\n                    at Function.endStep (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\allure-reporter\\build\\index.js:415:15)\n                    at Context.<anonymous> (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\test\\specs\\/example.e2e.js:18:24)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.executeAsync (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Step status must be passed or failed or broken or canceled or skipped. You tried to set \"EndStep title\"",
+    "statusTrace" : "Error: Step status must be passed or failed or broken or canceled or skipped. You tried to set \"EndStep title\"\n                    at Function.endStep (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\allure-reporter\\build\\index.js:415:15)\n                    at Context.<anonymous> (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\test\\specs\\/example.e2e.js:18:24)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.executeAsync (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "StartStep title",
+      "time" : {
+        "start" : 1628233021873,
+        "stop" : 1628233029767,
+        "duration" : 7894
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Step status must be passed or failed or broken or canceled or skipped. You tried to set \"EndStep title\"\n                    at Function.endStep (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\allure-reporter\\build\\index.js:415:15)\n                    at Context.<anonymous> (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\test\\specs\\/example.e2e.js:18:24)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.executeAsync (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "83ca6c446bcc04a8",
+        "name" : "Screenshot",
+        "source" : "83ca6c446bcc04a8.png",
+        "type" : "image/png",
+        "size" : 52383
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "This is the first feature"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "testId",
+    "value" : "TC001"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ {
+    "name" : "TC001",
+    "url" : "TC001",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d899a081640ab89.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

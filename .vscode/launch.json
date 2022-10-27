@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Webdriverio",
+            "type": "node",
+            "request": "launch",
+            "args": [
+                "wdio.conf.js",
+                "--spec"
+            ],
+            "cwd": "${workspaceFolder}",
+            "autoAttachChildProcesses": true,
+            "program": "${workspaceRoot}/node_modules/@wdio/cli/bin/wdio.js",
+            "skipFiles": [
+                "${workspaceFolder}/node_modules/**/*.js",
+                "${workspaceFolder}/lib/**/*.js",
+                "<node_internals>/**/*.js"
+            ],
+            "env": {
+                "DEBUG": "true"
+            }
+        }
+    ],
+}

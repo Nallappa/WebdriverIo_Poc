@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628233021871' stop='1628233029894'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1628233021871' status='broken' stop='1628233029767'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='This is the first feature'/>
+                <label name='testId' value='TC001'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628233021873' status='broken' stop='1628233029767'>
+                    <name>StartStep title</name>
+                    <title>StartStep title</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='34f60cef-e369-410a-b89b-18f957d53b8b-attachment.png' type='image/png' size='52383'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step status must be passed or failed or broken or canceled or skipped. You tried to set "EndStep title"</message>
+                <stack-trace>Error: Step status must be passed or failed or broken or canceled or skipped. You tried to set "EndStep title"
+                    at Function.endStep (C:\Users\SESA620164\Documents\Automation\WebdriverIoPoc1\node_modules\@wdio\allure-reporter\build\index.js:415:15)
+                    at Context.&lt;anonymous> (C:\Users\SESA620164\Documents\Automation\WebdriverIoPoc1\test\specs\/example.e2e.js:18:24)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Context.executeAsync (C:\Users\SESA620164\Documents\Automation\WebdriverIoPoc1\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\SESA620164\Documents\Automation\WebdriverIoPoc1\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+            <description type='text'>Description</description>
+        </test-case>
+        <test-case start='1628233029767' status='broken' stop='1628233029893'>
+            <name>Fail the test</name>
+            <title>Fail the test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='106a6d30-4929-464e-ba8a-3b85c238bf76-attachment.png' type='image/png' size='52383'/>
+            </attachments>
+            <failure>
+                <message>expect(received).toBeFalsy()
+                
+                Received: true</message>
+                <stack-trace>Error: expect(received).toBeFalsy()
+                
+                Received: true
+                    at Context.&lt;anonymous> (C:\Users\SESA620164\Documents\Automation\WebdriverIoPoc1\test\specs\/example.e2e.js:22:28)
+                    at Context.executeAsync (C:\Users\SESA620164\Documents\Automation\WebdriverIoPoc1\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (C:\Users\SESA620164\Documents\Automation\WebdriverIoPoc1\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

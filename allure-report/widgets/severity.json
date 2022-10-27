@@ -1,0 +1,21 @@
+[ {
+  "uid" : "2e1820b2113340f",
+  "name" : "Fail the test",
+  "time" : {
+    "start" : 1628236519239,
+    "stop" : 1628236519350,
+    "duration" : 111
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c929ba02452885d9",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1628236509773,
+    "stop" : 1628236519238,
+    "duration" : 9465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

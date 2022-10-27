@@ -1,0 +1,76 @@
+{
+  "uid" : "57fcc423c080a7d3",
+  "name" : "Fail the test",
+  "fullName" : "My Login application.Fail the test",
+  "historyId" : "8f8ace720b6f41bf1e1aab7bd10bf55b",
+  "time" : {
+    "start" : 1628233253498,
+    "stop" : 1628233253638,
+    "duration" : 140
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expect(received).toBeFalsy()\n                \n                Received: true",
+  "statusTrace" : "Error: expect(received).toBeFalsy()\n                \n                Received: true\n                    at Context.<anonymous> (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\test\\specs\\/example.e2e.js:23:28)\n                    at Context.executeAsync (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "expect(received).toBeFalsy()\n                \n                Received: true",
+    "statusTrace" : "Error: expect(received).toBeFalsy()\n                \n                Received: true\n                    at Context.<anonymous> (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\test\\specs\\/example.e2e.js:23:28)\n                    at Context.executeAsync (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\SESA620164\\Documents\\Automation\\WebdriverIoPoc1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fc34a409e515ae13",
+      "name" : "Screenshot",
+      "source" : "fc34a409e515ae13.png",
+      "type" : "image/png",
+      "size" : 52383
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Fail the test"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57fcc423c080a7d3.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}
